@@ -1,0 +1,103 @@
+/*********************************
+*******    Game Css    ***********
+*********************************/
+
+.snakeGame {
+	width: 400px;
+	font-size: 0;
+	float: left;
+	margin: 20px;
+	border: 10px solid gold;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	background: #F2F2F2;
+	box-shadow: 0 10px 8px #CBAC01;
+}
+.gridSq {
+	margin: 0;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #F2F2F2;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.snake {
+	background: blue;
+	box-shadow: inset 1px 1px 1px #F2F2F2;
+	border-radius: 40%;
+	-webkit-border-radius: 40%;
+	-moz-border-radius: 40%;
+	-o-border-radius: 40%;
+}
+.food {
+	background: red;
+	box-shadow: 0 0 1px 1px orange,
+	       inset 0 1px 1px #AB0900;
+	border: none;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.startMsg {
+	color: #AB0900;
+	position: relative;
+	right: 300px;
+	top: 200px;
+}
+
+/*********************************
+*********    Page    *************
+*********************************/
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+header {
+ text-align: center;
+}
+header h1, header p {
+	margin: 10px;
+}
+header h1 {
+	text-shadow: 2px 2px 5px #CBAC01;
+}
+
+body, html {
+	height: 100%;
+	color: #F2F2F2;
+	overflow: hidden;
+}
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background: url('http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg');
+	background-size: 100% 100%;
+}
+sidebar {
+	text-align: center;
+	width: 200px;
+	float: left;
+}
+#high-score span, #current-score span {
+	display: block;
+	margin: 10px;
+}
+em {
+	font-style: normal;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #CBAC01;
+}
+
+
+
+
+
+
+
+
