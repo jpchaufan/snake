@@ -124,8 +124,8 @@ function snakeGame(){
 				$('.gridSq[row=' + xpos + '][col=' + ypos + ']').removeClass('food');
 				game.food.splice(i, 1);
 				snake.size += 1;
-				var randomFoodQuantity = Math.floor(Math.random()*5)+1;
-				for (var i = 0; i < randomFoodQuantity; i++) {
+				var randomFoodQuantity = Math.floor(Math.random()*4)+2;
+				for (var k = 0; k < randomFoodQuantity; k++) {
 					makeFood();
 				};
 				keepScore();
